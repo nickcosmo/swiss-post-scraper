@@ -20,13 +20,11 @@ async function sheetDataCall() {
     const result = await googleSheetsInstance.spreadsheets.values.get({
         auth,
         spreadsheetId,
-        range: 'Sheet1!A1:D14',
+        range: 'Sheet1!A2:D14',
     });
     const allData = result.data.values;
-    allData.forEach((line, i) => {
-        if (i != 0) {
-            trackingNums.push(line[0]);
-        }
+    allData.forEach((line) => {
+        trackingNums.push(line[0]);
     });
 }
 
