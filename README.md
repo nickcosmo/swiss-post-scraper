@@ -8,4 +8,4 @@ I am moving across the world at the moment and I have many parcels in the mail t
 
 ## How It Works
 
-![Diagram](/digram.png)
+![Diagram](/diagram.png)
