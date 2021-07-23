@@ -10,9 +10,7 @@ Tools I found useful for this project were [Puppeteer](https://pptr.dev/) and th
 
 ## How It Works
 
-![Diagram](/diagram.png)
-
-<div><img src="/diagram.png"/></div>
+<div style="text-align: center"><img src="/diagram.png"/></div>
 
 1. Establish and authorize a connection with Google Sheets via Google Sheets API
 1. Get the list of tracking numbers from the Google Sheet
