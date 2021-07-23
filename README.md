@@ -12,6 +12,8 @@ Tools I found useful for this project were [Puppeteer](https://pptr.dev/) and th
 
 ![Diagram](/diagram.png)
 
+<div><img src="/diagram.png"/></div>
+
 1. Establish and authorize a connection with Google Sheets via Google Sheets API
 1. Get the list of tracking numbers from the Google Sheet
 1. Using puppeteer, go to Swiss Post website, input each tracking number, and scrape updated shipment data
